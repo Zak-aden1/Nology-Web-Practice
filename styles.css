@@ -1,0 +1,48 @@
+* {
+    margin 0;
+    padding: 0;
+}
+.navbar {
+  display: flex;
+  border: 2px solid black;
+}
+
+.ul {
+    display: flex;
+    padding: 1rem;
+}
+
+.li {
+    margin: 1rem;
+    justify-content: flex-end;
+}
+
+.container {
+  display: flex;
+}
+
+.service {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  height: 270px;
+  width: 300px;
+  justify-content: space-evenly;
+}
+
+.fa-arrow-right,
+.fa-chart-pie {
+  color: purple;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.service:hover {
+  color: white;
+  background-color: purple;
+  transition: 0.6s ease-in;
+}
+
+.fa-arrow-right:hover {
+  color: white;
+}
